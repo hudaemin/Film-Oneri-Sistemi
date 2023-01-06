@@ -1,0 +1,14 @@
+{% extends "basepage.html" %}
+{% block body %}
+ 
+<h2>{{ page_title }}</h2>
+<p>Seçtiğiniz film :{{ movie }} </p>
+
+
+
+<ol>
+{% for recommended_movies in recommendations %}
+  <li> <a >{{ recommended_movies }}</a> </li>
+{% endfor %}
+ </ol>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'basepage.html' %}
+{% block body %}
+ 
+<h2>{{ page_title }}</h2>
+ 
+
+<form action="/sum" method="post">
+    <label for="movie">En sevdiğiniz filmi giriniz:</label><br><br>
+    <input type="text" id="movie" name="movie"><br><br>
+    <input type="submit" value="Film Öner!" onclick="hello_flask(movie.value)">
+ </form> <br>
+ <form action="/filmlistesi" method="post"> <input type="submit" value="Film Listesi" onclick="hello_flask()">   </form>
+
+{% endblock %}

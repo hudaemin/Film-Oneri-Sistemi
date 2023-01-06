@@ -1,0 +1,12 @@
+{% extends "basepage.html" %}
+{% block body %}
+ 
+<h2>Film Listesi</h2>
+<p></p>
+
+<ol>
+{% for film in films %}
+  <li>{{ film }} </li>
+{% endfor %}
+ </ol>
+{% endblock %}

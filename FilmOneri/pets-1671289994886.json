@@ -1,0 +1,56 @@
+[
+  {
+    "color": "brown",
+    "type": "cat",
+    "size": "medium",
+    "name": "Oliver"
+  },
+  {
+    "color": "yellow",
+    "type": "rubber-duck",
+    "size": "medium",
+    "name": "Peanut"
+  },
+  {
+    "color": "green",
+    "type": "snake",
+    "size": "medium",
+    "name": "Mr Hiss"
+  },
+  {
+    "color": "black",
+    "type": "clippy",
+    "size": "medium",
+    "name": "Karl Klammer"
+  },
+  {
+    "color": "gray",
+    "type": "cockatiel",
+    "size": "medium",
+    "name": "Lord of the Wings"
+  },
+  {
+    "color": "red",
+    "type": "crab",
+    "size": "medium",
+    "name": "Peeves"
+  },
+  {
+    "color": "white",
+    "type": "dog",
+    "size": "medium",
+    "name": "Zeus"
+  },
+  {
+    "color": "purple",
+    "type": "mod",
+    "size": "medium",
+    "name": "Moddy"
+  },
+  {
+    "color": "gray",
+    "type": "rocky",
+    "size": "medium",
+    "name": "Miss Marble"
+  }
+]
